@@ -7,7 +7,7 @@ export default {
 
         let safeReportsCount = 0;
 
-        input.split("\r\n").forEach((row, index) => {
+        input.split("\r\n").forEach((row) => {
             const values = row.split(" ").map(x => Number.parseInt(x));
 
             const isSafe = isArrayIncreasingWithTolerance(values) || isArrayIncreasingWithTolerance(values.reverse());
