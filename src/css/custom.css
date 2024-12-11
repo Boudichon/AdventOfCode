@@ -1,0 +1,9 @@
+.text-bold {
+    font-weight: bold;   
+}
+
+.portfolio-item img {
+    /* height: 215px;
+    width: 300px; */
+    object-fit: cover;
+}
