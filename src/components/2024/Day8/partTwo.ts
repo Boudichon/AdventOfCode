@@ -4,7 +4,7 @@ export default {
     name: 'partTwo',
     async setup() {
         const input = await GetInput(2024, 8);
-        const map: string[] = [...input.replaceAll("\r\n", '')];
+        const inputString: string[] = [...input.replaceAll("\r\n", '')];
 
         const grid = input.split("\r\n").map(x => [...x]);
         const gridWidth = grid[0].length;
@@ -14,7 +14,7 @@ export default {
         const antinodes: Antenna[] = [];
 
         // extract every antennas
-        map.forEach((char, index) => {
+        inputString.forEach((char, index) => {
             if (char != '.') {
                 antennas.push({
                     symbol: char,

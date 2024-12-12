@@ -16,6 +16,6 @@ export default {
     // 'day-4-part-2': Day4Part2,
   },
   setup() {
-    
+
   },
 }
