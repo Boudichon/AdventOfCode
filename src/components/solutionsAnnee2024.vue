@@ -44,6 +44,12 @@
           <day-7-part-2 /> -->
         </div>
         <hr />
+        <div>
+          <h3>Day 8</h3>
+          <day-8-part-1 />
+          <day-8-part-2 />
+        </div>
+        <hr />
       </div>
     </Suspense>
   </div>
