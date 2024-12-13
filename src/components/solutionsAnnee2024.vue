@@ -52,8 +52,14 @@
         <hr />
         <div>
           <h3>Day 9</h3>
-          <day-9-part-1 />
-          <day-9-part-2 />
+          <!-- <day-9-part-1 />
+          <day-9-part-2 /> -->
+        </div>
+        <hr />
+        <div>
+          <h3>Day 10</h3>
+          <day-10-part-1 />
+          <day-10-part-2 />
         </div>
         <hr />
       </div>

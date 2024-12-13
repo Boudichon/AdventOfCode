@@ -16,6 +16,8 @@ import Day8Part1 from "./2024/Day8/partOne.vue";
 import Day8Part2 from "./2024/Day8/partTwo.vue";
 import Day9Part1 from "./2024/Day9/partOne.vue";
 import Day9Part2 from "./2024/Day9/partTwo.vue";
+import Day10Part1 from "./2024/Day10/partOne.vue";
+import Day10Part2 from "./2024/Day10/partTwo.vue";
 
 export default {
   name: 'contentTemplate',
@@ -38,6 +40,8 @@ export default {
     'day-8-part-2': Day8Part2,
     'day-9-part-1': Day9Part1,
     'day-9-part-2': Day9Part2,
+    'day-10-part-1': Day10Part1,
+    'day-10-part-2': Day10Part2,
   },
   setup() {
     
