@@ -26,6 +26,8 @@ import Day13Part1 from "./2024/Day13/partOne.vue";
 import Day13Part2 from "./2024/Day13/partTwo.vue";
 import Day14Part1 from "./2024/Day14/partOne.vue";
 import Day14Part2 from "./2024/Day14/partTwo.vue";
+import Day15Part1 from "./2024/Day15/partOne.vue";
+import Day15Part2 from "./2024/Day15/partTwo.vue";
 
 export default {
   name: 'contentTemplate',
@@ -58,5 +60,7 @@ export default {
     'day-13-part-2': Day13Part2,
     'day-14-part-1': Day14Part1,
     'day-14-part-2': Day14Part2,
+    'day-15-part-1': Day15Part1,
+    'day-15-part-2': Day15Part2,
   }
 }
